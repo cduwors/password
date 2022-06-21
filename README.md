@@ -1,37 +1,31 @@
 # Password Generator
 
 ## Description
-GIVEN someone needs a new, secure password
-WHEN they click the button to generate a password
-THEN they are presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN they select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN they choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN they confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN they answer each prompt
-THEN input is validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is displayed in the return box on the page.
+When someone needs a new, secure password
+they can click the button to generate a random password that is to their preferences. They will answer a series of prompts for their choices:
+1) choose a length of at least 8 characters and no more than 128 characters
+2) choose to include lowercase, uppercase, numeric, and/or special characters by individual prompt
+Their answers are validated - the user must pick at least one character style.
+
+A password is then generated that matches the selected criteria
+displayed in the return box on the page.
 
 ## Issues
-1) Had to make sure that the password loop would continue until the password was the correct length.
+- Had to make sure that the password loop would continue until the password was the correct length.
 
-2) Needed to correct when alphabetic array was returning the number placement of the random letter rather than the letter.
+- Needed to correct when alphabetic array was returning the number placement of the random letter rather than the letter.
 
-3) Had Git issues - I thought that I was committing to the GitHub repo but was only saving in the local repo. Figured it out when the project was done so there are not multiple commits to the GitHub repo.
+- Had Git issues - I thought that I was committing to the GitHub repo but was only saving in the local repo. Figured it out when the project was done so there are not multiple commits to the GitHub repo.
 
 
 ## Screenshot
-<img src="./Develop/GenScreenshot.png"/>
+<img src= "./GenScreenshot.png"/>
+
 
 
 ## Contact
-Christina DuWors
-christinaduwors@gmail.com
+Christina DuWors<br/>
+christinaduwors@gmail.com<br/>
 github.com/cduwors
 
 GitHub Repository: https://github.com/cduwors/password
